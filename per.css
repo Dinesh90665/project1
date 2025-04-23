@@ -1,0 +1,128 @@
+.ger
+{
+    height: 700px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 50px;
+    display: flex;
+    
+}
+.ren
+{
+    height: 350px;
+    background-color: white;
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 4px;  
+    margin-left: 400px;
+    margin-top: 80px;
+}
+.border
+{
+    border: 2px solid rgb(241, 235, 235);
+}
+
+.bene
+{
+    text-decoration: none;
+    font-size: x-large;
+    
+}
+.rain
+{
+    margin-left: 30px;
+    margin-top: 70px;
+    text-transform: lowercase;
+    text-decoration: double;
+    color: blue;
+    font-size: xx-large;
+    letter-spacing: 0.1sch;
+}
+.rew
+{
+    height: 350px;
+    background-color: white;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 80px;
+    border-radius: 4px;
+    border: solid;
+    border-color: rgb(246, 246, 246);
+}
+.merit
+{
+    height: 40px;
+    width: 300px;
+    background-color:blue;
+    margin-left: 40px;
+}
+.mene
+{
+    margin-left: 20px;
+    width: 335px;
+    height: 33px;
+    border-radius: 3px;
+}
+.nene
+{
+    margin-left:20px;
+    width: 335px;
+    height: 33px;
+    border-radius: 3px;
+}
+.case
+{
+    height: 34px;
+    width:335px;
+    background-color: blue;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+.year
+{
+
+    text-align: center;
+    color: white;
+}
+.face
+{
+    height: 33px;
+    width: 335px;
+    background-color:white;
+    margin-left: 20px ;
+}
+.gen
+{
+    color: rgb(36, 36, 161);
+    margin-left: 60px;
+}
+.hen
+{
+    height: 50px;
+    width: 230px;
+    background-color: red;
+    margin-left: 85px;
+    border-radius: 4px;
+  
+    color: white;
+    background-color: rgb(58, 238, 58);
+
+}
+
+.ner
+{
+margin-left: 8px;
+}
+.mer{
+    height: 30px;
+    width: 350px;
+    background-color:white;
+    margin-top: 40px;
+    margin-left: 30px;
+        
+}
+.fish
+{
+    height: 20px;
+    background-color: aqua;
+}
