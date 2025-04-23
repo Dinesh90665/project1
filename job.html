@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dmeal.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="hest.css">
+</head>
+<style>
+
+.nav-bar
+{
+    height: 100px;
+    background-color:black;
+   
+   display: flex;
+
+}
+
+ .black{
+    height: 80px;
+    width: 100px;
+    background-image: url('first.jpg');
+    background-size: cover;
+    border-radius: 56px;    
+}
+
+
+
+    /*.red
+    {
+        height: 500px;
+        width:500px;
+        border-radius: 14px;
+        border:2px solid black;
+        border-style: double;
+        background-image: url('IMG_1934.JPG');
+        background-size: cover;
+
+    }
+        */
+        .name
+        {
+            height: 60px;
+            width: 100px;
+            color: white;
+            margin-top: 10px;
+            
+        }
+        
+         .nan
+        {
+            font-size: large;
+            text-decoration: solid;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .nan:hover
+        {
+            background-color: aqua;
+        }
+
+
+
+
+ .nav-search
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 350px;
+    height: 38px;
+    border-radius: 4px;
+    margin-top: 20px;
+
+}
+.search-select
+{
+    background-color: #f3f3f3;
+    width: 100px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input
+{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    
+}
+.search-icon
+{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.nav-search:hover
+{
+    border: 2px solid orange;
+}
+.ben
+{
+    width: 200px;
+
+
+    display: flex;
+
+}
+.nav-flag
+{
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: white;
+    margin-left: 50px;
+}
+.nav-flag i{
+    font-size: 30px;   
+}
+.nav-flag i:hover{
+    border: 2px transparent solid;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-second
+{
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    
+}
+/**box6**/
+.nav-cart i
+{
+font-size: 30px;
+}
+.nav-cart i:hover{
+    border: 2px solid transparent;
+    
+}
+.nav-cart
+{
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: white;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.nen
+{
+    margin-left: 20px;
+    color: white;
+    font-size: large;
+}
+
+.panel
+{
+    height: 40px;
+    background-color: #2071c9;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops
+{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals
+{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/**hero-section**/
+.hero-section
+{
+    background-image: url("happ.jpg");
+    background-image: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg
+{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+     width: 80%;
+     margin-bottom: 25px;
+     border-radius: 20px;
+}
+.hero-msg a{
+color: #007185;
+}
+.nmen
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nea
+{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin-left: 30px;
+   border-radius: 70px;
+  background-size:cover;
+}
+.nea:hover
+{
+
+    background-image: url('IMG_1934.JPG');
+}
+</style>
+<body>
+
+    <div class="nav-bar">
+        <div class="black">
+        </div>
+        
+        <div class="name">
+           <a class="nan" href="about.html">About</a>
+        </div>
+        <div class="name">
+            <a class="nan" id="me" href="menu.html">Menu</a>
+        </div>
+        <div class="name">
+            <a class="nan" href="product.html">product</a>
+        </div>
+        <div class="name">
+            <a class="nan" href="Review.html">Review</a>
+        </div>
+        <div class="name">
+            <a class="nan" href="Contacts.html">Contacts</a>
+                    </div>
+                    <div class="name">
+                       <a class="nan" href="Blogs.html">Blogs</a>
+                    </div>
+                
+                    <div class="nav-search">
+                        <select class="Search-select">
+                            <option>All</option>
+                        </select>
+                        <input placeholder="Search Your Order"class="search-input">
+                        <div class="search-icon">
+                       <a href="menu.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </div>
+                    </div>
+                        <div class="ben">
+                            <div class="nav-flag border">
+                                <i class="fa-solid fa-flag"></i>
+                                All over nepal
+                            </div>
+                        <div class="nav-signin">
+                            <p class="nen"><span>Hello,signin</span>
+                                Account & lists
+                        </p>
+                            
+                        </div>
+                        <div class="nav-return">
+               <button class="vc"><a class="mn" href="Return.html">Returns and orders</a></button>
+                        </div>
+                        <div class="ven">
+                            <div class="nea"></div>
+                        </div>
+                        </div>
+
+                     
+</div> 
+
+<div class="panel">
+    <div class="panel-All">
+        <i class="fa-solid fa-bars"></i>
+        All
+    </div>
+    <div class="panel-ops">
+        <p>Delicious food</p>
+        <p>Customer Service</p>
+            <p>Registry and login here</p>
+            <p>Welcome you heartly</p>
+            <p>Get full enjoy</p>
+    </div>
+<div class="panel-deals">
+    Eat and order the food 
+</div>
+</div>
+<div class="hero-section">
+<div class="hero-msg">
+<p class="nmen">you are Dmeal.com.you can also order food all over nepal for hundreds food items with fast delivery.<a>click here go to dmeal.in</a></p>
+</div>
+</div>
+<div class="med">
+    <div class="me">
+    </div>
+
+    <div class="med">
+    </div>
+    <div class="">
+    
+    </div>
+</div>
+
+<div class="box">
+<div class="ned">
+    <p class="na">Coffee</p>
+<div class="box1">
+    <p>price::</p>
+    <p>Taste::</p>
+    <p>Item from</p>
+    <p>Spicy or Not</p>
+
+</div>
+</div>
+<div class="ned">
+    <p class="na">Chicken food</p>
+<div class="box2">
+</div>
+</div>
+<div class="ned">
+    <p class="na">Cleaned kitchen</p>
+<div class="box3">
+</div>
+</div>
+<div class="ned">
+    <p class="na">faciliate Room</p>
+<div class="box4">
+</div>
+</div>
+</div>
+<div class="meu">
+    <div class="ned">
+        <p class="na">Dining Room</p>
+        <div class="box5">
+        </div>
+    </div>
+    <div class="ned">
+        <p class="na">Stylish</p>
+        <div class="box6">
+        </div>
+    </div>
+
+    <div class="ned">
+        <p class="na">Non-Veg</p>
+        <div class="box7">
+        </div>
+    </div>
+    <div class="ned">
+        <p class="na">Juice </p>
+        <div class="box8">
+        </div>
+    </div>
+</div>
+<div class="bean">
+    <div class="nen">
+        <select name=" Coury" id="name">
+            <option value="COuntry">Country</option>
+            <option value="nepal">Nepal</option>
+            <option value="India">India</option>
+            <option value="Srilanka">Srilanka</option>
+        </select>
+
+        <select name="lane" id="spoken">
+            <option value="language">language</option>
+            <option value="znepali">Nepali</option>
+            <option value="hindi">hindi</option>
+            <option value="English">English</option>
+        </select>
+        <br>
+        <h3 class="her">ABOUT DMEAL</h3>
+        <p class="gee">who We Are</p>
+        <p class="gee">Blog</p>
+        <p class="gee">Work with us</p>
+        <p class="gee">investor Relations</p>
+        <p class="gee">Report Fund</p>
+        <p class="gee">Press kit</p>
+        <p class="gee">Contact us</p>
+    </div>
+        <div class="heb">
+            <h2 class="her">FOR RESTUARANTS </h2>
+            <p>Parter with Us</p>
+            <p>Apps for you</p>
+            <br>
+             <p>for apple</p>
+
+             <br>
+             <p>For Android</p>
+        </div>
+<div class="heg">
+    <div class="vb">
+    <h2 class="her">DMEAL PROVIDED</h2>
+    <p>Dmeal</p>
+    <p>Blinkit</p>
+    <p>District</p>
+    <p>Hyperpure</p>
+    <p>Feeding Nepal</p>
+    <p>Dmeal Live</p>
+    <p>Wearger Union</p>
+    </div>
+  
+    <div class="mx">
+<h2 class="her">LEARN MORE</h2>
+<p>Privacy</p>
+<p>Security</p>
+<p>Terms</p>
+<h4>Social Links</h4>
+<p>For facebook::http://facebook.......</p>
+<p>for Instagram::http://Instag........</p>
+<p>By continuing past this page, you agree our terms of service,Cookie Policy and Content Polies.</p>
+
+</div>
+</div>
+</div>
+
+    <div class="name">
+    <a class="an" id="me" href="login.html">Login</a>
+    </div>
+</div>
+  
+</div>
+<script src="first.js"></script>
+</body>
+</html>
